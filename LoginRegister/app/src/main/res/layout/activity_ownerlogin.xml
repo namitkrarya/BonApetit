@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/foodsaladrestaurantperson"
+    tools:context="com.example.lenovo.ownerlogin">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:hint="Enter Username"
+        android:id="@+id/usernameo"
+        android:typeface="serif"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:typeface="serif"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:id="@+id/passwordo"
+        android:layout_below="@+id/usernameo"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="20sp"
+        android:backgroundTint="#ff0000"
+        style="@style/button_text"
+        android:typeface="serif"
+        android:id="@+id/logino"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/passwordo"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textSize="20sp"
+        android:backgroundTint="#ff0000"
+        style="@style/button_text"
+        android:text="Back"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/logino" />
+    <TextView
+        android:id="@+id/rego"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:textSize="23sp"
+        android:text="Register as Owner"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="80dp"
+        android:layout_below="@+id/Back"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

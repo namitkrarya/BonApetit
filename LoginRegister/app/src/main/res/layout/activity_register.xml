@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http:// schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@mipmap/foodsaladrestaurantperson"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:typeface="serif"
+        android:text="Name"
+        android:textStyle="bold|italic"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:typeface="serif"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Hostel"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etAge"
+        android:typeface="serif"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:typeface="serif"
+        android:textStyle="bold|italic"
+        android:text="Username"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:typeface="serif"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:typeface="serif"
+        android:textStyle="bold|italic"
+        android:text="Password"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:typeface="serif"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bRegister"
+        android:text="Register"
+        android:typeface="serif"
+        android:backgroundTint="#ff0000"
+        android:layout_width="match_parent"
+        style="@style/button_text"
+        android:textSize="20sp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http:// schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@mipmap/foodsaladrestaurantperson"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:text="Username"-->
+        <!--android:layout_height="wrap_content" />-->
+    
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:hint="Enter Username"
+        android:typeface="serif"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+    
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:text="Password"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:hint="Enter Password"
+        android:typeface="serif"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bLogin"
+        android:shadowColor="@color/bluebutton"
+        android:text="Login"
+        android:typeface="serif"
+        android:textSize="20sp"
+        android:backgroundTint="#ff0000"
+        style="@style/button_text"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/tvRegisterLink"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:text="Register Here"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_height="wrap_content" />-->
+    <Button
+        android:id="@+id/tvRegisterLink"
+        android:shadowColor="@color/bluebutton"
+        android:text="Register Here"
+        android:textSize="20sp"
+        android:backgroundTint="#ff0000"
+        style="@style/button_text"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:typeface="serif"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/owner"
+        android:shadowColor="@color/bluebutton"
+        android:text="Sign in as owner"
+        android:typeface="serif"
+        android:textSize="20sp"
+        android:backgroundTint="#ff0000"
+        style="@style/button_text"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

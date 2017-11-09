@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@mipmap/foodsaladrestaurantperson"
+    tools:context="com.example.lenovo.rego">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Hostel"
+        android:typeface="serif"
+        android:textStyle="bold|italic"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etAgeo"
+        android:typeface="serif"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:typeface="serif"
+        android:text="Username"
+        android:textStyle="bold|italic"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/etUsernameo"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:typeface="serif"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:typeface="serif"
+        android:text="Password"
+        android:textStyle="bold|italic"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etPasswordo"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:typeface="serif"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bRegistero"
+        android:text="Register"
+        android:typeface="serif"
+        android:backgroundTint="#ff0000"
+        style="@style/button_text"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

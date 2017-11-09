@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@mipmap/foodsaladrestaurantperson"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.lohit">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:typeface="serif"
+        android:text="Menu: "
+        android:textSize="32sp"
+        android:textColor="#000000"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_aloo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="14dp"
+        android:text="Aloo Paratha"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+    <CheckBox
+        android:id="@+id/checkbox_maggi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignStart="@+id/edit_fried_maggi"
+        android:layout_below="@+id/edit_aloo_sandwich"
+        android:layout_marginTop="14dp"
+        android:text="Maggi"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+    <CheckBox
+        android:id="@+id/checkbox_fried_maggi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fried Maggi"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:typeface="serif"
+        android:layout_below="@+id/edit_maggi"
+        android:layout_alignStart="@+id/edit_fried_rice"
+        android:layout_marginTop="14dp" />
+
+    <CheckBox
+        android:id="@+id/checkbox_aloo_sandwich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aloo Sandwich"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/checkbox_aloo"
+        android:layout_alignStart="@+id/checkbox_aloo" />
+
+    <CheckBox
+        android:id="@+id/checkbox_fried_rice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fried Rice"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:typeface="serif"
+        android:layout_above="@+id/edit_veg_chowmien"
+        android:layout_alignStart="@+id/edit_veg_chowmien"
+        android:layout_marginBottom="11dp" />
+
+    <CheckBox
+        android:id="@+id/checkbox_veg_chowmien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Veg Chowmein"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:typeface="serif"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/edit_bread_omlette" />
+
+    <CheckBox
+        android:id="@+id/checkbox_bread_omlette"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bread Omlette"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:typeface="serif"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/edit_veg_chowmien"
+        android:layout_alignEnd="@+id/edit_aloo_sandwich1" />
+
+    <CheckBox
+        android:id="@+id/checkbox_stuff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Stuff Paratha"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:typeface="serif"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/edit_bread_omlette"
+        android:layout_alignStart="@+id/edit_bread_omlette" />
+
+    <CheckBox
+        android:id="@+id/checkbox_veg_roll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edit_stuff"
+        android:layout_gravity="center"
+        android:layout_below="@+id/edit_stuff"
+        android:layout_marginTop="16dp"
+        android:text="Veg Roll"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+    <CheckBox
+        android:id="@+id/checkbox_chicken_momos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chicken Momos"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:layout_gravity="center"
+        android:layout_above="@+id/avail"
+        android:layout_alignStart="@+id/edit_veg_roll" />
+    <Button
+        android:id="@+id/order"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textSize="20sp"
+        android:backgroundTint="#ff0000"
+        style="@style/button_text"
+        android:text="Order"
+        android:layout_marginTop="67dp"
+        android:layout_below="@+id/edit_fried_maggi1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/back"
+        style="@style/button_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/edit_veg_roll"
+        android:layout_marginBottom="17dp"
+        android:backgroundTint="#ff0000"
+        android:text="Back"
+        android:textSize="20sp"
+        android:typeface="serif" />
+</LinearLayout>
+</ScrollView>

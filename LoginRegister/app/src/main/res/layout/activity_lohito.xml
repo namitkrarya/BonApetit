@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/foodsaladrestaurantperson"
+    tools:context="com.example.lenovo.lohito">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="400dp"
+        android:layout_height="325dp"
+        android:layout_alignEnd="@+id/ready"
+        android:text=""
+        android:textStyle="bold|italic"
+        android:textColor="#000000"
+        android:textSize="23sp"
+        android:typeface="serif" />
+    <Button
+        android:id="@+id/ready"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Ready"
+        android:textSize="20sp"
+        android:backgroundTint="#ff0000"
+        style="@style/button_text"
+        android:typeface="serif"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="14dp" />
+    <Button
+        android:id="@+id/logouto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:backgroundTint="#ff0000"
+        style="@style/button_text"
+        android:text="Logout"
+        android:typeface="serif"
+        android:layout_below="@+id/ready"
+        android:layout_alignStart="@+id/ready" />
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textSize="20sp"
+        android:backgroundTint="#ff0000"
+        style="@style/button_text"
+        android:text="edit menu"
+        android:layout_alignBaseline="@+id/logouto"
+        android:layout_alignBottom="@+id/logouto"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:id="@+id/ownercode"
+        android:typeface="serif"
+        android:textStyle="bold|italic"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/logouto"
+        android:layout_alignStart="@+id/ready" />
+
+
+</RelativeLayout>
