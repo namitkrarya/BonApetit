@@ -1,9 +1,13 @@
 # Bon Apetit
 
 This android application was created by me and my team as a project for CodeFunDo organised by Microsoft.
+
 Team Name - Trinity
+
 Member 1 - Namit Kumar
+
 Member 2 - Rohit Pant
+
 Member 3 - Sahib Khan
 
 Watch the demo video on Youtube [here.](https://www.youtube.com/watch?v=ZGBR3Nv76_0)
